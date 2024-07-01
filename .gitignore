@@ -1,0 +1,12 @@
+# Directories
+.vscode/
+build/
+assets/
+SDL/
+
+# Libraries
+*.dll
+
+# Execs
+*.out
+*.exe
