@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[]) {
     App& ShootTheSwarm = App::getInstance();
-    ShootTheSwarm.init("Just Tic-Tac-Toe", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 640, SDL_WINDOW_ALLOW_HIGHDPI);
+    ShootTheSwarm.init("Shoot the swarm", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 640, SDL_WINDOW_ALLOW_HIGHDPI);
 
     const int FPS = 30;
     const int FRAME_DELAY = 1000 / FPS;

@@ -30,16 +30,16 @@ class App {
     void update(const double& deltaTime);
     void render();
 
-    static SDL_Renderer* renderer;
+    static std::shared_ptr<SDL_Renderer> renderer;
 
  private:
     bool isRunning_ = false;
-    SDL_Window* window_;
+    std::shared_ptr<SDL_Window> window_;
 
     // Gameplay variables
     
 
     // Text variables
-    TTF_Font* font_;
+    std::shared_ptr<TTF_Font> font_;
     SDL_Color textColor_ = {255, 255, 255}; // white
 };
